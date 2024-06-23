@@ -1,0 +1,132 @@
+/* Set the margin of the entire body to zero */
+body {
+    margin: 0px;
+}
+
+/* Style for the header section */
+.coffee-header {
+    position: fixed; /* Fixed position for the header */
+    left: 0px;
+    right: 0px;
+    height: 100px; /* Set the height of the header */
+    width: 100%; /* Full width */
+    background-color: darkblue; /* Background color of the header */
+    z-index: 100; /* Ensure header is on top */
+}
+
+/* Style for the logo container inside the header */
+.div-logo {
+    height: 100%; /* Full height */
+    text-align: center; /* Center align text */
+    margin: 10px; /* Margin around the logo */
+    float: left; /* Float to the left */
+}
+
+/* Style for the logo text */
+.logo-text {
+    display: block; /* Block display */
+    font-family: Arial, Helvetica, sans-serif; /* Font family */
+    font-weight: bold; /* Bold font */
+    color: white; /* White color text */
+}
+
+/* Style for the navigation bar inside the header */
+.coffee-nav {
+    float: right; /* Float to the right */
+    height: 100%; /* Full height */
+}
+
+/* Style for the navigation links */
+.coffee-nav a {
+    color: white; /* White color text */
+    font-size: 15px; /* Font size */
+    font-weight: 700; /* Bold font */
+    font-family: Arial, Helvetica, sans-serif; /* Font family */
+    padding: 20px; /* Padding around links */
+    padding-top: 12%; /* Padding from top */
+    display: inline-block; /* Inline block display */
+}
+
+/* Style for the main content section */
+.site-content {
+    position: absolute; /* Absolute positioning */
+    top: 78px; /* Position below the header */
+    width: 100%; /* Full width */
+}
+
+/* Style for the image content section */
+.image-content {
+    background-image: url(../image/coffee2.jpg); /* Background image */
+    height: 700px; /* Height of the image section */
+    width: 100%; /* Full width */
+    text-align: center; /* Center align text */
+}
+
+/* Style for the quote inside the image content */
+.quote {
+    color: white; /* White color text */
+    font-family: Arial, Helvetica, sans-serif; /* Font family */
+    position: relative; /* Relative positioning */
+    top: 10%; /* Position 10% from the top */
+}
+
+/* Style for the card list section */
+.card-list {
+    width: 100%; /* Full width */
+}
+
+/* Style for the product heading */
+#product {
+    text-align: center; /* Center align text */
+}
+
+/* Style for each card */
+.card {
+    width: 22%; /* Width of each card */
+    height: 300px; /* Height of each card */
+    float: left; /* Float to the left */
+    padding: 1.5%; /* Padding around each card */
+    text-align: center; /* Center align text */
+}
+
+/* Style for images inside each card */
+.card img {
+    width: 100%; /* Full width */
+}
+
+/* Style for the order section */
+.order-section {
+    width: 100%; /* Full width */
+}
+
+/* Style for the order heading */
+#order {
+    text-align: center; /* Center align text */
+}
+
+/* Style for the form container */
+.form {
+    width: 200px; /* Width of the form */
+    margin: 0 auto; /* Center align the form */
+}
+
+/* Style for input fields inside the form */
+.form input {
+    margin: 10px; /* Margin around input fields */
+    padding: 10px; /* Padding inside input fields */
+}
+
+
+/* Uncomment the following styles if you want to add hover effects to the navigation links and cards */
+
+.coffee-nav a:hover {
+    font-size: 25px; /* Increase font size on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+.card:hover {
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 20px; /* Increase font size on hover */
+    font-family: Arial, Helvetica, sans-serif; /* Font family */
+
+} 
